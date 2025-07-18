@@ -5,7 +5,6 @@ echo "Enter the pattern"
 read pattern
 
 if grep -r -l "$pattern" * > test10
-
 then 
         echo "Below file contains given pattern"
 cat test10
