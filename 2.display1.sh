@@ -1,7 +1,7 @@
 #!/bin/bash 
+#set -x
 echo "Welcome to devops class"
-echo "Welcome to devops class in bangalore and  Mysore"
-echo -e "Welcome to Docker and Kubernates \nWelcome to CIandCD \nWelcome to AWS class"
+echo -e "Welcome to Docker and Kubernates \nWelcome to CI and CD \nWelcome to AWS class"
 
 num1=1
 num2=2
