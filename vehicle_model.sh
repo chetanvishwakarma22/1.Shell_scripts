@@ -11,4 +11,3 @@ then
 echo "$line" | awk -F " " '{print $1}'
 fi
 done < $file_name
-
