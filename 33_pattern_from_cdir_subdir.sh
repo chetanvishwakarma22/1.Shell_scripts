@@ -2,6 +2,7 @@
 #set -x
 echo "Enter the pattern"
 read pattern
+
 grep -r -l "$pattern" * > test12
 if [ $? -eq 0 ]
 then 
