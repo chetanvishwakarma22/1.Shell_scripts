@@ -15,6 +15,12 @@ echo "Enter the district name"
 read District
 echo "country name is $Country,state name is $State and district name is $District"
 
+echo "chetan is devops engineer"
+name="chetan"
+name1='sachin'
+echo "Hi,this is $name and $name1"
+echo "command line arguments are $0,$1,$2,$*,$# and $?"
+
 echo "Enter the integer for num1"
 read num1
 echo "Enter the integer for num2"
