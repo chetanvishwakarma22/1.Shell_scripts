@@ -6,6 +6,7 @@ echo "Enter the second integer value"
 read num2
 echo "Enter the third integer value"
 read num3
+
 if [ $num1 -gt $num2 ] && [ $num1 -gt $num3 ]
 then
 	echo "$num1 is greater than $num2 and $num3"
