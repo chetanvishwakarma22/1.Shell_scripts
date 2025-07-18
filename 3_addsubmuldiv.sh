@@ -17,3 +17,15 @@ echo "The multiplication of $num1 and $num2 is $mul"
 
 div=`expr $num1 / $num2`
 echo "The division of $num1 and $num2 is $div"
+
+num3="ABCD"
+echo "$num3"
+
+num4="INDIA"
+echo "$num4"
+
+num5=10.5
+num6=20.5
+
+sum=$(echo "$num5 + $num6" | bc )
+echo "$sum"
