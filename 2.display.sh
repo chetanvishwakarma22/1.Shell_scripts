@@ -1,7 +1,8 @@
-#!/bin/bash 
+#!/bin/bash
 #set -x
-echo "Welcome to devops class"
-echo -e "Welcome to Docker and Kubernates \nWelcome to CI and CD \nWelcome to AWS class"
+echo "Welcome to Devops class"
+echo "Welcome to Docker and Kubernates"
+echo -e "Welcome to devops class \nWelcome to Docker and Kubernates \nWelcome to Git and Jenkins"
 
 num1=1
 num2=2
@@ -21,7 +22,4 @@ read num1
 echo "Enter number"
 read num2
 echo "The number one is $num1 and The number two is $num2"
-
 echo "The command line arguments are $1,$2,$3,$4,$*,$@,$#,$$"
-
-
