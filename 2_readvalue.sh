@@ -1,9 +1,11 @@
 #!/bin/bash
 #set -x
-num1=1
-num2=2
-value=string
-echo "num1 is $num1,num2 is $num2 and value is $value"
+#set -e 
+
+num1=10
+num2=20
+val="welcome"
+echo "The num1 is $num1,num2 is $num2 and val is $val"
 
 echo "Enter the country name"
 read Country
