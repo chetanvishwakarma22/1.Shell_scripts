@@ -7,7 +7,7 @@ echo "Employee who is working in devops with employee id"
 while read line
 do
 dept=`echo "$line" | awk -F " " '{print $NF}'`
-if [ $dept == Devops ]
+if [ $dept == devops ]
 then
 echo "$line" | awk -F " " '{print $1,$2}'
 fi
