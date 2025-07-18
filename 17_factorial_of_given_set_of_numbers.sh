@@ -2,8 +2,10 @@
 #set -x
 echo "Enter a numbers"
 read num
-arr_name="1 2 3 4"
+
+arr_name="$num"
 sum=1
+
 for num in $arr_name
 do
         while [ $num -gt 0 ]
@@ -12,5 +14,4 @@ sum=`expr $sum \* $num`
 num=`expr $num - 1`
 done
 done
-echo "The factorial for given set of numbers is $sum"
-
+echo "The factorial of given set of numbers is $sum"
