@@ -1,3 +1,4 @@
+name color model price
 car red 2010 100000
 bike black 2014 250000
 cycle grey 2015 400000
