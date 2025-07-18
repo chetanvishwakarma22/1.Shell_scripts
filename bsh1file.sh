@@ -1,4 +1,5 @@
 #!/bin/bash
+#set -x
 
 # Check for MONITOR_MODE
 if [ -z "$MONITOR_MODE" ]; then
