@@ -17,9 +17,9 @@ echo "Enter the district name"
 read District
 echo "country name is $Country,state name is $State and district name is $District"
 
-echo "Enter number"
+echo "Enter the integer for num1"
 read num1
-echo "Enter number"
+echo "Enter the integer for num2"
 read num2
-echo "The number one is $num1 and The number two is $num2"
+echo "The num1 is $num1 and The num2 is $num2"
 echo "The command line arguments are $1,$2,$3,$4,$*,$@,$#,$$"
